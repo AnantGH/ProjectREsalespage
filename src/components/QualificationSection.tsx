@@ -4,75 +4,117 @@ const QualificationSection = () => {
   return (
     <div className="px-4 md:px-8 lg:px-16 py-12 text-white">
       <div className="bg-card rounded-lg p-8">
-        <h2 className="text-2xl font-bold text-white mb-6">Don't join this programme if -</h2>
+        <h2 className="text-2xl font-bold text-white mb-6">**What's the catch?**</h2>
         
         <div className="space-y-4 mb-8">
-          <div className="flex items-start gap-3">
-            <span className="text-red-500 text-xl font-bold">❌</span>
-            <p className="text-muted-foreground text-lg">You are not willing to learn new things and apply them in order to make money.</p>
-          </div>
-          
-          <div className="flex items-start gap-3">
-            <span className="text-red-500 text-xl font-bold">❌</span>
-            <p className="text-muted-foreground text-lg">You are looking for a get rich quick scheme.</p>
-          </div>
-          
-          <div className="flex items-start gap-3">
-            <span className="text-red-500 text-xl font-bold">❌</span>
-            <p className="text-muted-foreground text-lg">You are not willing to do the work required because in this program apart from teaching we also monitor your first flip and how much money you make through it.</p>
-          </div>
+          <p className="text-muted-foreground text-lg">
+            **There is really no catch you just have to put the work upfront**,
+          </p>
         </div>
 
-        <h2 className="text-2xl font-bold text-white mb-6">How does it work?</h2>
+        <h3 className="text-xl font-bold text-white mb-6">You will get</h3>
         
+        <div className="space-y-3 mb-8 text-muted-foreground">
+          <div className="flex justify-between">
+            <span>Franchise Opportunity</span>
+            <span className="font-bold">$25,000</span>
+          </div>
+          <div className="flex justify-between">
+            <span>A.I. Package</span>
+            <span className="font-bold">$100,000</span>
+          </div>
+          <div className="flex justify-between">
+            <span>Mentorship Program</span>
+            <span className="font-bold">$10,000</span>
+          </div>
+          <div className="flex justify-between">
+            <span>In-Person Training</span>
+            <span className="font-bold">$5,000</span>
+          </div>
+          <div className="flex justify-between">
+            <span>Telegram Group</span>
+            <span className="font-bold">$250/mo</span>
+          </div>
+          <div className="flex justify-between">
+            <span>Pre - Licensing</span>
+            <span className="font-bold line-through">$300</span>
+          </div>
+          <div className="flex justify-between">
+            <span>IUL Course</span>
+            <span className="font-bold line-through">$250</span>
+          </div>
+          <div className="flex justify-between">
+            <span>Weekly Online Training</span>
+            <span className="font-bold">$6,000</span>
+          </div>
+          <div className="flex justify-between">
+            <span>Contact with Product Providers</span>
+            <span className="font-bold">$2,000</span>
+          </div>
+          <div className="flex justify-between">
+            <span>Contractual Ownership</span>
+            <span className="font-bold">$100,000</span>
+          </div>
+          
+          <hr className="border-gray-600 my-4" />
+          
+          <div className="flex justify-between text-xl">
+            <span className="font-bold text-white">TOTAL VALUE:</span>
+            <span className="font-bold text-red-500 line-through">$248,800</span>
+          </div>
+          <div className="flex justify-between text-2xl">
+            <span className="font-bold text-white">TODAYS VALUE:</span>
+            <span className="font-bold text-green-500">$199</span>
+          </div>
+          <p className="text-center font-bold">Everything Included Above!!</p>
+        </div>
+
         <div className="space-y-4 mb-8">
           <p className="text-muted-foreground text-lg">
-            It's actually quite simple considering the outcome you get from this programme…
+            **As a franchise, we would charge a quarter millions for all of this stuff combined**,
           </p>
           
           <p className="text-muted-foreground text-lg">
-            Just simply click on any of the links.
+            **But with us, it will be just 200 bucks**,
           </p>
           
           <p className="text-muted-foreground text-lg">
-            Then we'll hop on a quick strategy call, so I can see what you're doing and who YOU are.
+            **Along with the registration of your brokerages and licensing material**.
           </p>
           
           <p className="text-muted-foreground text-lg">
-            This is important so that we can make an actual plan on how to get you to where you want.
+            **You literally don't have to do anything apart from just clicking the link below**.
           </p>
           
           <p className="text-muted-foreground text-lg">
-            And how we will apply those plans daily to progress each day and finally get you to achieve your dream income target.
-          </p>
-          
-          <p className="font-bold text-white">
-            That's when the FUN starts!
+            **There we will set a time for you and me to chat face-to-face**,
           </p>
           
           <p className="text-muted-foreground text-lg">
-            You'll also get access to a bunch of resources with an estimated value of &lt;X&gt;.
+            **Then we will get you started on your journey to earning passive income with your Faceless Insurance Company**.
           </p>
-          
-          <p className="font-bold text-white">
-            Inside you'll have everything you need to make money through real estate…
-          </p>
-          
-          <p className="font-bold text-white">
-            And quit your 9-5 job forever and spend more time with people you love.
-          </p>
+        </div>
+
+        <div className="text-center mb-8">
+          <Button variant="cta-large" className="mb-6">
+            I am Ready. Take me in.
+          </Button>
+        </div>
+
+        <h2 className="text-2xl font-bold text-white mb-6 text-center">Testimonials</h2>
+        
+        <div className="text-center mb-8">
+          <Button variant="cta-large" className="mb-6">
+            Yes! I Want Similar Results. Take Me in Already.
+          </Button>
         </div>
 
         <div className="text-center">
-          <Button variant="cta-large" className="mb-6">
-            Yes! Enroll Me In ProjectRE.
-          </Button>
-          
-          <h3 className="text-xl font-bold text-white">FAQs/Recap</h3>
+          <h3 className="text-xl font-bold text-white mb-6">FAQ's/ Recap</h3>
           
           <div className="mt-6">
             <Button variant="cta-large">
-              Yes! Enroll Me In ProjectRE.
+              Get Started for Just $200 Now.
             </Button>
           </div>
         </div>

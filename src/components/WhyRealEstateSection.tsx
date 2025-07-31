@@ -3,83 +3,173 @@ import { Button } from "@/components/ui/button";
 const WhyRealEstateSection = () => {
   return (
     <div className="px-4 md:px-8 lg:px-16 py-12 text-white">
-      {/* Don't just take my word section */}
+      {/* Story continuation */}
       <div className="bg-card rounded-lg p-8 mb-8">
-        <h2 className="text-2xl font-bold text-white mb-6">Don't just take my word -</h2>
+        <h2 className="text-2xl font-bold text-white mb-6">That's when I realised, that….</h2>
         
-        <div className="text-center mb-8">
-          <p className="text-muted-foreground mb-6">(Testimonials)</p>
-          <Button variant="cta-large" className="mb-4">
-            I Want Similar Results.
-          </Button>
+        <div className="space-y-4 text-muted-foreground text-lg">
+          <h3 className="text-xl font-bold text-white">I had to start a Faceless Insurance Company</h3>
+          
+          <p>
+            **Everything changed after that**,
+          </p>
+          
+          <p>
+            I started getting these results for myself and other agents -
+          </p>
+          
+          <div className="text-center mb-8">
+            <p className="text-muted-foreground mb-6">(Testimonials)</p>
+            <Button variant="cta-large" className="mb-4">
+              I Want to Join Right Now.
+            </Button>
+          </div>
+          
+          <p>
+            **I started posting on social media**,
+          </p>
+          
+          <p>
+            **Took my business online**,
+          </p>
+          
+          <p>
+            **But then I was forced to take the toughest decision of my life**,
+          </p>
+          
+          <p>
+            **Instead of encouraging and appreciating to adapt to the changes, my agency discouraged it**,
+          </p>
+          
+          <p>
+            **They wanted me to use the traditional ways**,
+          </p>
+          
+          <p>
+            But I didn't want it,
+          </p>
+          
+          <p>
+            So after a lot of arguments,
+          </p>
+          
+          <p>
+            I did the thing which I should have done before,
+          </p>
+          
+          <h3 className="text-xl font-bold text-white">I Quit...</h3>
+          
+          <p>
+            Yes, you read it right,
+          </p>
+          
+          <p>
+            I did it,
+          </p>
+          
+          <p>
+            **I pulled the plug on the Agency with which I worked for so long**,
+          </p>
+          
+          <p>
+            **But they weren't ready to change and grow**,
+          </p>
+          
+          <p>
+            **I had outgrown them so there was no point in me being with them**,
+          </p>
+          
+          <p>
+            So I kept doing my own stuff,
+          </p>
+          
+          <p>
+            But I have to admit it,
+          </p>
+          
+          <h3 className="text-xl font-bold text-white">I was scared</h3>
+          
+          <p>
+            **Because I had left the one job that paid me the most**,
+          </p>
+          
+          <p>
+            **Now this was a very risky move**,
+          </p>
+          
+          <p>
+            But one day,
+          </p>
+          
+          <p>
+            **I got a phone call**,
+          </p>
+          
+          <p>
+            **One company contacted me after seeing my social media**,
+          </p>
+          
+          <p>
+            **They said they wanted me to join their insurance agency**,
+          </p>
+          
+          <p>
+            **I hesitated at first because I thought it would be like my old company**,
+          </p>
         </div>
       </div>
 
-      {/* Why Real Estate section */}
+      {/* New Company section */}
       <div className="bg-card rounded-lg p-8">
-        <h2 className="text-2xl font-bold text-white mb-6">Why Real Estate is the best?</h2>
-        
         <div className="space-y-4 text-muted-foreground text-lg">
           <p>
-            And before I take you the fantastic program setup I have for you which can earn you money like the people above, there is another thing which I wanted to share -
+            But they were not,
           </p>
           
           <p>
-            People ask me "Why Real Estate?"
-          </p>
-          
-          <p className="font-bold text-white italic">
-            "Real Estate is so old-school people earn money through Crypto, SMMA, Dropshipping, trading etc. nowadays"
-          </p>
-          
-          <p className="font-bold text-white italic">
-            "How does Real Estate stand apart from them?"
+            **When I explained how I operate and I won't do it any other way**,
           </p>
           
           <p>
-            Well, wherever you are now I want you to get up and go outside.
+            **They told me that it was exactly what they wanted**,
           </p>
           
           <p>
-            Notice the world around if there is any building near you, then that is real estate.
+            **They wanted to partner with me and train their agents in my way**,
           </p>
           
           <p>
-            So you see every skyscraper or farmhouse is owned by someone,
-          </p>
-          
-          <p className="font-bold text-white">
-            This means as long as humanity is alive we will keep making buildings and that is why real estate is evergreen.
-          </p>
-          
-          <p className="font-bold text-white">
-            So there is literally no limit to how much money you can make in this industry.
+            **They wanted my social media expertise**,
           </p>
           
           <p>
-            Also, this industry is the only one out of all the new-age business models which cannot be completely dominated by AI, because…
-          </p>
-          
-          <p className="font-bold text-white">
-            Ultimately real estate will only be owned by a human and not a machine.
+            **Now this company was newly founded where they combined financial services with tech**,
           </p>
           
           <p>
-            But the same cannot be said for other business models.
+            **They also used a franchise and agency broker model where they would train agents to start a branch of our agency and get a commission in return**,
           </p>
           
-          <p className="font-bold text-white">
-            So here is how you can learn how you can make quick money from real estate -
+          <p>
+            **There I made a target of 1000 licensed agents in 1 year who would be encouraged to start their own agency**,
           </p>
           
-          <div className="space-y-2 ml-4">
-            <p>1. Without reading multiple books on real estate.</p>
-            <p>2. Without just consuming knowledge and not having the platform to apply it.</p>
-            <p>3. Without placing your hard-earned life savings at stake.</p>
-          </div>
+          <p>
+            **So I refined my skills further while teaching other insurance agents how to sell online**,
+          </p>
           
-          <p className="font-bold text-white">
-            That is why I compiled and provided each one of these inside the ProjectRE, which will change your life forever -
+          <p>
+            **And I made the biggest invention of my life without being a scientist**,
+          </p>
+          
+          <h2 className="text-2xl font-bold text-white mb-6">Introducing the Faceless Insurance Company Model</h2>
+          
+          <p>
+            **Now I wanted to train agents as quickly as possible and help them make money too**,
+          </p>
+          
+          <p>
+            **So I decided why not come up with a franchise style of teaching without the franchise fee**,
           </p>
         </div>
       </div>
