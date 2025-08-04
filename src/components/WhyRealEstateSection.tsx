@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Play } from "lucide-react";
 
 const WhyRealEstateSection = () => {
   return (
@@ -7,11 +8,66 @@ const WhyRealEstateSection = () => {
       <div className="bg-card rounded-lg p-8 mb-8">
         <h2 className="text-2xl font-bold text-white mb-6">Don't just take my word -</h2>
         
-        <div className="text-center mb-8">
-          <p className="text-muted-foreground mb-6">(Testimonials)</p>
+        <div className="mb-8">
+          {/* Video Testimonials Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            {/* Testimonial 1 */}
+            <div className="bg-secondary rounded-lg overflow-hidden">
+              <div className="relative aspect-video bg-gradient-to-br from-blue-600 to-blue-800 flex items-center justify-center">
+                <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center cursor-pointer hover:bg-blue-400 transition-colors">
+                  <Play className="w-6 h-6 text-white fill-current ml-1" />
+                </div>
+                <div className="absolute top-3 left-3 bg-white/20 backdrop-blur-sm text-white px-2 py-1 rounded text-xs">
+                  Play Video
+                </div>
+              </div>
+              <div className="p-4">
+                <h3 className="text-white font-semibold text-sm mb-1">
+                  How David Got His First Property in 1 Week + <span className="text-blue-400">$85k in Funding!</span>
+                </h3>
+              </div>
+            </div>
+
+            {/* Testimonial 2 */}
+            <div className="bg-secondary rounded-lg overflow-hidden">
+              <div className="relative aspect-video bg-gradient-to-br from-blue-600 to-blue-800 flex items-center justify-center">
+                <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center cursor-pointer hover:bg-blue-400 transition-colors">
+                  <Play className="w-6 h-6 text-white fill-current ml-1" />
+                </div>
+                <div className="absolute top-3 left-3 bg-white/20 backdrop-blur-sm text-white px-2 py-1 rounded text-xs">
+                  Play Video
+                </div>
+              </div>
+              <div className="p-4">
+                <h3 className="text-white font-semibold text-sm mb-1">
+                  How Armand Got His First Property Within 30 Days!
+                </h3>
+              </div>
+            </div>
+
+            {/* Testimonial 3 */}
+            <div className="bg-secondary rounded-lg overflow-hidden">
+              <div className="relative aspect-video bg-gradient-to-br from-blue-600 to-blue-800 flex items-center justify-center">
+                <div className="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center cursor-pointer hover:bg-blue-400 transition-colors">
+                  <Play className="w-6 h-6 text-white fill-current ml-1" />
+                </div>
+                <div className="absolute top-3 left-3 bg-white/20 backdrop-blur-sm text-white px-2 py-1 rounded text-xs">
+                  Play Video
+                </div>
+              </div>
+              <div className="p-4">
+                <h3 className="text-white font-semibold text-sm mb-1">
+                  How Daniel Got 3 Bookings in His First Week of Listing!
+                </h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center">
           <Button variant="cta-large" className="mb-4">
             I Want Similar Results.
           </Button>
+          </div>
         </div>
       </div>
 
